@@ -4,8 +4,8 @@ import numpy as np
 import joblib
 
 
-kmeans = joblib.load('E:\ML_project\Customer_Segementation_clustering\kmeans_model.pkl')  # Load the KMeans model
-scaler = joblib.load('E:\ML_project\Customer_Segementation_clustering\scaler.pkl')  # Load the scaler
+kmeans = joblib.load('E:\ML_project\Customer_Segementation_System\kmeans.pkl')  # Load the KMeans model
+scaler = joblib.load('E:\ML_project\Customer_Segementation_System\sc.pkl')  # Load the scaler
 
 st.title("Customer Segmentation Prediction")
 st.write("Enter customer details to predict the segment ")
